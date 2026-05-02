@@ -1,0 +1,1250 @@
+[
+  {
+    "model": "planner.plantinfo",
+    "pk": 1,
+    "fields": {
+      "common_name": "Brandywine Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 85
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 2,
+    "fields": {
+      "common_name": "Early Girl Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 57
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 3,
+    "fields": {
+      "common_name": "Sungold Cherry Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 65
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 4,
+    "fields": {
+      "common_name": "Roma Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 5,
+    "fields": {
+      "common_name": "Cherokee Purple Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 6,
+    "fields": {
+      "common_name": "San Marzano Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 7,
+    "fields": {
+      "common_name": "Black Krim Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 8,
+    "fields": {
+      "common_name": "Yellow Pear Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 9,
+    "fields": {
+      "common_name": "Stupice Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 10,
+    "fields": {
+      "common_name": "Glacier Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 11,
+    "fields": {
+      "common_name": "Bell Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 12,
+    "fields": {
+      "common_name": "Jalapeno Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 13,
+    "fields": {
+      "common_name": "Anaheim Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 14,
+    "fields": {
+      "common_name": "Poblano Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 15,
+    "fields": {
+      "common_name": "Cayenne Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 16,
+    "fields": {
+      "common_name": "Banana Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 17,
+    "fields": {
+      "common_name": "Hungarian Wax Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 18,
+    "fields": {
+      "common_name": "Bush Bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 19,
+    "fields": {
+      "common_name": "Pole Bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 65
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 20,
+    "fields": {
+      "common_name": "Kentucky Wonder Bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 65
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 21,
+    "fields": {
+      "common_name": "Blue Lake Bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 22,
+    "fields": {
+      "common_name": "Lima Bean",
+      "scientific_name": "Phaseolus lunatus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 23,
+    "fields": {
+      "common_name": "Fava Bean",
+      "scientific_name": "Vicia faba",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 24,
+    "fields": {
+      "common_name": "Snow Pea",
+      "scientific_name": "Pisum sativum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 25,
+    "fields": {
+      "common_name": "Sugar Snap Pea",
+      "scientific_name": "Pisum sativum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 65
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 26,
+    "fields": {
+      "common_name": "Garden Pea",
+      "scientific_name": "Pisum sativum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 65
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 27,
+    "fields": {
+      "common_name": "Spinach",
+      "scientific_name": "Spinacia oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 45
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 28,
+    "fields": {
+      "common_name": "Kale",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 29,
+    "fields": {
+      "common_name": "Swiss Chard",
+      "scientific_name": "Beta vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 30,
+    "fields": {
+      "common_name": "Romaine Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 1,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 31,
+    "fields": {
+      "common_name": "Buttercrunch Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 1,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 32,
+    "fields": {
+      "common_name": "Iceberg Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 1,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 33,
+    "fields": {
+      "common_name": "Looseleaf Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 1,
+      "days_to_harvest": 45
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 34,
+    "fields": {
+      "common_name": "Arugula",
+      "scientific_name": "Eruca vesicaria",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 40
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 35,
+    "fields": {
+      "common_name": "Mustard Greens",
+      "scientific_name": "Brassica juncea",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 40
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 36,
+    "fields": {
+      "common_name": "Collard Greens",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 37,
+    "fields": {
+      "common_name": "Bok Choy",
+      "scientific_name": "Brassica rapa",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 50
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 38,
+    "fields": {
+      "common_name": "Mache",
+      "scientific_name": "Valerianella locusta",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 50
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 39,
+    "fields": {
+      "common_name": "Endive",
+      "scientific_name": "Cichorium endivia",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 40,
+    "fields": {
+      "common_name": "Broccoli",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 70
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 41,
+    "fields": {
+      "common_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 42,
+    "fields": {
+      "common_name": "Brussels Sprouts",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 43,
+    "fields": {
+      "common_name": "Green Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 44,
+    "fields": {
+      "common_name": "Red Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 45,
+    "fields": {
+      "common_name": "Savoy Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 46,
+    "fields": {
+      "common_name": "Kohlrabi",
+      "scientific_name": "Brassica oleracea",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 47,
+    "fields": {
+      "common_name": "Turnip",
+      "scientific_name": "Brassica rapa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 48,
+    "fields": {
+      "common_name": "Rutabaga",
+      "scientific_name": "Brassica napus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 49,
+    "fields": {
+      "common_name": "Radish",
+      "scientific_name": "Raphanus sativus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 30
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 50,
+    "fields": {
+      "common_name": "Daikon Radish",
+      "scientific_name": "Raphanus sativus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 51,
+    "fields": {
+      "common_name": "Carrot",
+      "scientific_name": "Daucus carota",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 52,
+    "fields": {
+      "common_name": "Beet",
+      "scientific_name": "Beta vulgaris",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 53,
+    "fields": {
+      "common_name": "Parsnip",
+      "scientific_name": "Pastinaca sativa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 110
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 54,
+    "fields": {
+      "common_name": "Yellow Onion",
+      "scientific_name": "Allium cepa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 55,
+    "fields": {
+      "common_name": "Red Onion",
+      "scientific_name": "Allium cepa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 56,
+    "fields": {
+      "common_name": "White Onion",
+      "scientific_name": "Allium cepa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 57,
+    "fields": {
+      "common_name": "Garlic",
+      "scientific_name": "Allium sativum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 240
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 58,
+    "fields": {
+      "common_name": "Leek",
+      "scientific_name": "Allium ampeloprasum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 120
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 59,
+    "fields": {
+      "common_name": "Shallot",
+      "scientific_name": "Allium cepa",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 60,
+    "fields": {
+      "common_name": "Yukon Gold Potato",
+      "scientific_name": "Solanum tuberosum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 61,
+    "fields": {
+      "common_name": "Russet Potato",
+      "scientific_name": "Solanum tuberosum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 110
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 62,
+    "fields": {
+      "common_name": "Red Potato",
+      "scientific_name": "Solanum tuberosum",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 63,
+    "fields": {
+      "common_name": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 64,
+    "fields": {
+      "common_name": "Zucchini",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 50
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 65,
+    "fields": {
+      "common_name": "Yellow Summer Squash",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 55
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 66,
+    "fields": {
+      "common_name": "Butternut Squash",
+      "scientific_name": "Cucurbita moschata",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 67,
+    "fields": {
+      "common_name": "Acorn Squash",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 85
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 68,
+    "fields": {
+      "common_name": "Spaghetti Squash",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 90
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 69,
+    "fields": {
+      "common_name": "Sugar Pumpkin",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 100
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 70,
+    "fields": {
+      "common_name": "Jack-o-Lantern Pumpkin",
+      "scientific_name": "Cucurbita pepo",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 110
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 71,
+    "fields": {
+      "common_name": "Sugar Baby Watermelon",
+      "scientific_name": "Citrullus lanatus",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 72,
+    "fields": {
+      "common_name": "Cantaloupe",
+      "scientific_name": "Cucumis melo",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 85
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 73,
+    "fields": {
+      "common_name": "Sweet Corn",
+      "scientific_name": "Zea mays",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 74,
+    "fields": {
+      "common_name": "Asparagus",
+      "scientific_name": "Asparagus officinalis",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 75,
+    "fields": {
+      "common_name": "Rhubarb",
+      "scientific_name": "Rheum rhabarbarum",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 365
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 76,
+    "fields": {
+      "common_name": "Eggplant",
+      "scientific_name": "Solanum melongena",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 77,
+    "fields": {
+      "common_name": "Celery",
+      "scientific_name": "Apium graveolens",
+      "category": "Vegetable",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 120
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 78,
+    "fields": {
+      "common_name": "Sunchoke",
+      "scientific_name": "Helianthus tuberosus",
+      "category": "Vegetable",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 120
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 79,
+    "fields": {
+      "common_name": "Sweet Basil",
+      "scientific_name": "Ocimum basilicum",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 80,
+    "fields": {
+      "common_name": "Cilantro",
+      "scientific_name": "Coriandrum sativum",
+      "category": "Herb",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 45
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 81,
+    "fields": {
+      "common_name": "Flat-Leaf Parsley",
+      "scientific_name": "Petroselinum crispum",
+      "category": "Herb",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 82,
+    "fields": {
+      "common_name": "Dill",
+      "scientific_name": "Anethum graveolens",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 83,
+    "fields": {
+      "common_name": "Chives",
+      "scientific_name": "Allium schoenoprasum",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 84,
+    "fields": {
+      "common_name": "Mint",
+      "scientific_name": "Mentha spicata",
+      "category": "Herb",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 60
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 85,
+    "fields": {
+      "common_name": "Oregano",
+      "scientific_name": "Origanum vulgare",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 86,
+    "fields": {
+      "common_name": "Thyme",
+      "scientific_name": "Thymus vulgaris",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 87,
+    "fields": {
+      "common_name": "Sage",
+      "scientific_name": "Salvia officinalis",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 75
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 88,
+    "fields": {
+      "common_name": "Rosemary",
+      "scientific_name": "Salvia rosmarinus",
+      "category": "Herb",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 80
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 89,
+    "fields": {
+      "common_name": "Strawberry",
+      "scientific_name": "Fragaria x ananassa",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 365
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 90,
+    "fields": {
+      "common_name": "Red Raspberry",
+      "scientific_name": "Rubus idaeus",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 365
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 91,
+    "fields": {
+      "common_name": "Black Raspberry",
+      "scientific_name": "Rubus occidentalis",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 365
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 92,
+    "fields": {
+      "common_name": "Blackberry",
+      "scientific_name": "Rubus fruticosus",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 365
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 93,
+    "fields": {
+      "common_name": "Highbush Blueberry",
+      "scientific_name": "Vaccinium corymbosum",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 2,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 94,
+    "fields": {
+      "common_name": "Red Currant",
+      "scientific_name": "Ribes rubrum",
+      "category": "Fruit",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 95,
+    "fields": {
+      "common_name": "Gooseberry",
+      "scientific_name": "Ribes uva-crispa",
+      "category": "Fruit",
+      "sun_needs": "Partial sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 96,
+    "fields": {
+      "common_name": "Honeyberry",
+      "scientific_name": "Lonicera caerulea",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 97,
+    "fields": {
+      "common_name": "Aronia Berry",
+      "scientific_name": "Aronia melanocarpa",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 730
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 98,
+    "fields": {
+      "common_name": "Juneberry",
+      "scientific_name": "Amelanchier alnifolia",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 3,
+      "days_to_harvest": 1095
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 99,
+    "fields": {
+      "common_name": "Honeycrisp Apple",
+      "scientific_name": "Malus domestica",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1460
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 100,
+    "fields": {
+      "common_name": "Haralson Apple",
+      "scientific_name": "Malus domestica",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1460
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 101,
+    "fields": {
+      "common_name": "Zestar Apple",
+      "scientific_name": "Malus domestica",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1460
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 102,
+    "fields": {
+      "common_name": "Summercrisp Pear",
+      "scientific_name": "Pyrus communis",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1460
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 103,
+    "fields": {
+      "common_name": "Mount Royal Plum",
+      "scientific_name": "Prunus domestica",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1095
+    }
+  },
+  {
+    "model": "planner.plantinfo",
+    "pk": 104,
+    "fields": {
+      "common_name": "Evans Cherry",
+      "scientific_name": "Prunus cerasus",
+      "category": "Fruit",
+      "sun_needs": "Full sun",
+      "water_frequency_days": 4,
+      "days_to_harvest": 1095
+    }
+  }
+]
