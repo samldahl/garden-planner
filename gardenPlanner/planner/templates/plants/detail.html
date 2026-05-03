@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ plant.name }}</h1>
+  <p>in <a href="{% url 'gardens-detail' plant.garden.id %}">{{ plant.garden.name }}</a></p>
+
+  <div style="background:#d5e6d5; width:300px; height:200px;">plant photo</div>
+
+  <h2>Details</h2>
+  <p>Species: {{ plant.plant_info.scientific_name }}</p>
+  <p>Common name: {{ plant.plant_info.common_name }}</p>
+  <p>Planted: {{ plant.planted_date }}</p>
+  <p>Last watered: {{ plant.last_watered|default:"never" }}</p>
+
+  <h2>Species info</h2>
+  <p>Sun needs: {{ plant.plant_info.sun_needs }}</p>
+  <p>Water every {{ plant.plant_info.water_frequency_days }} day{{ plant.plant_info.water_frequency_days|pluralize }}</p>
+  <p>Days to harvest: {{ plant.plant_info.days_to_harvest }}</p>
+
+  {% if plant.notes %}
+    <h2>Notes</h2>
+    <p>{{ plant.notes }}</p>
+  {% endif %}
+
+  <hr>
+  <form action="{% url 'plants-delete' plant.id %}" method="POST">
+    {% csrf_token %}
+    <button type="submit">Delete Plant</button>
+  </form>
+{% endblock %}

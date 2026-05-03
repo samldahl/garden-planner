@@ -3,8 +3,8 @@ from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 
-from .models import Garden
-from .forms import GardenForm
+from .models import Garden, Plant
+from .forms import GardenForm, PlantForm
 
 # Create your views here.
 def home(request):
@@ -43,10 +43,37 @@ def gardens_create(request):
 @login_required
 def gardens_delete(request, garden_id):
     garden = get_object_or_404(Garden, pk=garden_id, user=request.user)
+    garden.delete()
+    return redirect('gardens-index')
+
+
+@login_required
+def plants_create(request, garden_id):
+    garden = get_object_or_404(Garden, pk=garden_id, user=request.user)
     if request.method == 'POST':
-        garden.delete()
-        return redirect('gardens-index')
-    return render(request, 'gardens/confirm_delete.html', {'garden': garden})
+        form = PlantForm(request.POST)
+        if form.is_valid():
+            plant = form.save(commit=False)
+            plant.garden = garden
+            plant.save()
+            return redirect('plants-detail', plant_id=plant.id)
+    else:
+        form = PlantForm()
+    return render(request, 'plants/form.html', {'form': form, 'garden': garden})
+
+
+@login_required
+def plants_detail(request, plant_id):
+    plant = get_object_or_404(Plant, pk=plant_id, garden__user=request.user)
+    return render(request, 'plants/detail.html', {'plant': plant})
+
+
+@login_required
+def plants_delete(request, plant_id):
+    plant = get_object_or_404(Plant, pk=plant_id, garden__user=request.user)
+    garden_id = plant.garden.id
+    plant.delete()
+    return redirect('gardens-detail', garden_id=garden_id)
 
 
 def signup(request):

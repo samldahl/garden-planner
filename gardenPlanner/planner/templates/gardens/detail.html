@@ -5,13 +5,16 @@
   <p>{{ garden.plant_set.count }} plant{{ garden.plant_set.count|pluralize }}</p>
   <p>{{ garden.description }}</p>
 
-  <a href="#">+ Add Plant</a>
+  <a href="{% url 'plants-create' garden.id %}">+ Add Plant</a>
 
   <h2>Plants in this garden</h2>
   {% if garden.plant_set.all %}
     <ul>
       {% for plant in garden.plant_set.all %}
-        <li>{{ plant.name }} — {{ plant.plant_info.common_name }}</li>
+        <li>
+          <a href="{% url 'plants-detail' plant.id %}">{{ plant.name }}</a>
+          — {{ plant.plant_info.common_name }}
+        </li>
       {% endfor %}
     </ul>
   {% else %}
