@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ garden.name }}</h1>
+  <p>{{ garden.plant_set.count }} plant{{ garden.plant_set.count|pluralize }}</p>
+  <p>{{ garden.description }}</p>
+
+  <a href="#">+ Add Plant</a>
+
+  <h2>Plants in this garden</h2>
+  {% if garden.plant_set.all %}
+    <ul>
+      {% for plant in garden.plant_set.all %}
+        <li>{{ plant.name }} — {{ plant.plant_info.common_name }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No plants yet.</p>
+  {% endif %}
+
+  <hr>
+  <form action="{% url 'gardens-delete' garden.id %}" method="POST">
+    {% csrf_token %}
+    <button type="submit">Delete Garden</button>
+  </form>
+  <a href="{% url 'gardens-index' %}">← Back to gardens</a>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>My Gardens</h1>
+  <a href="{% url 'gardens-create' %}">+ New Garden</a>
+
+  {% if gardens %}
+    <ul>
+      {% for garden in gardens %}
+        <li>
+          <a href="{% url 'gardens-detail' garden.id %}">{{ garden.name }}</a>
+          — {{ garden.plant_set.count }} plant{{ garden.plant_set.count|pluralize }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>You don't have any gardens yet. Create your first one!</p>
+  {% endif %}
+{% endblock %}

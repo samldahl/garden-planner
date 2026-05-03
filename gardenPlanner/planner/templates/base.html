@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garden Planner</title>
+</head>
+<body>
+  <nav>
+    <a href="{% url 'home' %}">Garden Planner</a>
+    {% if user.is_authenticated %}
+      <a href="{% url 'gardens-index' %}">Gardens</a>
+    {% endif %}
+    <a href="{% url 'about' %}">About</a>
+    {% if user.is_authenticated %}
+      <span>Hi, {{ user.username }}</span>
+      <form action="{% url 'logout' %}" method="POST" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Log Out</button>
+      </form>
+    {% else %}
+      <a href="{% url 'login' %}">Log In</a>
+      <a href="{% url 'signup' %}">Sign Up</a>
+    {% endif %}
+  </nav>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
