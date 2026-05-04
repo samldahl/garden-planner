@@ -23,7 +23,8 @@
   {% endif %}
 
   <hr>
-  <form action="{% url 'plants-delete' plant.id %}" method="POST">
+  <a href="{% url 'plants-update' plant.id %}">Edit</a>
+  <form action="{% url 'plants-delete' plant.id %}" method="POST" style="display:inline;">
     {% csrf_token %}
     <button type="submit">Delete Plant</button>
   </form>

@@ -1,11 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1>New Garden</h1>
+  <h1>{% if garden %}Edit Garden{% else %}New Garden{% endif %}</h1>
   <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Save Garden</button>
-    <a href="{% url 'gardens-index' %}">Cancel</a>
+    {% if garden %}
+      <a href="{% url 'gardens-detail' garden.id %}">Cancel</a>
+    {% else %}
+      <a href="{% url 'gardens-index' %}">Cancel</a>
+    {% endif %}
   </form>
 {% endblock %}

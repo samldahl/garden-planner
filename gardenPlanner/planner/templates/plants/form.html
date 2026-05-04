@@ -1,12 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1>Add a plant</h1>
-  <p>to {{ garden.name }}</p>
+  <h1>{% if plant %}Edit plant{% else %}Add a plant{% endif %}</h1>
+  <p>{% if plant %}in{% else %}to{% endif %} {{ garden.name }}</p>
   <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Save plant</button>
-    <a href="{% url 'gardens-detail' garden.id %}">Cancel</a>
+    {% if plant %}
+      <a href="{% url 'plants-detail' plant.id %}">Cancel</a>
+    {% else %}
+      <a href="{% url 'gardens-detail' garden.id %}">Cancel</a>
+    {% endif %}
   </form>
 {% endblock %}

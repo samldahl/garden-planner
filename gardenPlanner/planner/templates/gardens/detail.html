@@ -5,6 +5,7 @@
   <p>{{ garden.plant_set.count }} plant{{ garden.plant_set.count|pluralize }}</p>
   <p>{{ garden.description }}</p>
 
+  <a href="{% url 'gardens-update' garden.id %}">Edit</a>
   <a href="{% url 'plants-create' garden.id %}">+ Add Plant</a>
 
   <h2>Plants in this garden</h2>

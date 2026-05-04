@@ -41,6 +41,19 @@ def gardens_create(request):
 
 
 @login_required
+def gardens_update(request, garden_id):
+    garden = get_object_or_404(Garden, pk=garden_id, user=request.user)
+    if request.method == 'POST':
+        form = GardenForm(request.POST, instance=garden)
+        if form.is_valid():
+            form.save()
+            return redirect('gardens-detail', garden_id=garden.id)
+    else:
+        form = GardenForm(instance=garden)
+    return render(request, 'gardens/form.html', {'form': form, 'garden': garden})
+
+
+@login_required
 def gardens_delete(request, garden_id):
     garden = get_object_or_404(Garden, pk=garden_id, user=request.user)
     garden.delete()
@@ -66,6 +79,19 @@ def plants_create(request, garden_id):
 def plants_detail(request, plant_id):
     plant = get_object_or_404(Plant, pk=plant_id, garden__user=request.user)
     return render(request, 'plants/detail.html', {'plant': plant})
+
+
+@login_required
+def plants_update(request, plant_id):
+    plant = get_object_or_404(Plant, pk=plant_id, garden__user=request.user)
+    if request.method == 'POST':
+        form = PlantForm(request.POST, instance=plant)
+        if form.is_valid():
+            form.save()
+            return redirect('plants-detail', plant_id=plant.id)
+    else:
+        form = PlantForm(instance=plant)
+    return render(request, 'plants/form.html', {'form': form, 'garden': plant.garden, 'plant': plant})
 
 
 @login_required
